@@ -1,0 +1,62 @@
+html,
+body {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    background-color:#c1dadf;
+}
+
+#wrapper div,
+#wrapper h2 {
+    display: flex;
+    justify-content: center;
+}
+
+h2 {
+    color: black;
+    letter-spacing: 1px;
+}
+
+input {
+    border: none;
+    border-radius: 5px;
+    margin-top: 30px;
+    height: 2em;
+    width: 280px;
+    outline: none;
+    padding: 8px;
+    background-color: azure;
+}
+
+#wrapper {
+    margin-top: 10px;
+    height: 400px;
+    width: 300px;
+    margin: 80px auto;
+    background-color:#00abcc;
+    border-radius: 10px;
+    padding: 30px;
+}
+
+button {
+    margin-top: 20px;
+    background-color: black;
+    border-radius: 4px;
+    height: 44px;
+    font-weight: 600;
+    padding: 0 30px;
+    letter-spacing: 1px;
+    border: none;
+    color: ghostwhite;
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+#result 
+{
+    color: black;
+    margin-top: 30px;
+    font-size: 15px;
+    transition: 2s;
+}
